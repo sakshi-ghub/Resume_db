@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Contact Form - PHP/MySQL Demo Code</title>
+</head>
+
+<body>
+<fieldset>
+  <legend>Resume</legend>
+  <form name="frmContact" method="post" action="contact.php">
+    <p>
+      <label for="Name">Name </label>
+      <input type="text" name="Name" id="Name" placeholder="Enter your name"/>
+    </p>
+    <p>
+      <label for="RollNo">Roll Number</label>
+      <input type="text" name="Roll" id="Roll" placeholder="Enter your Roll Number"/>
+    </p>
+    <p>
+       <label for="DOB">DOB </label>
+       <input type="date" name="DOB" id="DOB" placeholder="Choose your dob"/>
+    <p>
+      <label for="Address">Address</label>
+    </p>
+      <textarea name="Address" id="Address" placeholder="Provide your address"></textarea>
+    <p>
+      <label for="Mobile number">Mobile Number</label>
+      <input type="number" name="Mob" id="Mob" placeholder="Enter your mobile number"/>
+    </p>
+    <p>
+      <label for="email">E-mail id</label>
+      <input type="text" name="Email" id="Email" placeholder="Enter your email id"/>
+    </p>
+    	<label for="sgpa1">sgpa1</label>
+	<input type="number" id="sgpa1" step="0.01" name="sgpa1"placeholder="Enter your sgpa1" /><br>
+        <label for="sgpa2">sgpa2</label>
+	<input type="number" id="sgpa2" name="sgpa2" step="0.01" placeholder="Enter your sgpa2" /><br>
+	<label for="sgpa3">sgpa3</label>
+        <input type="number" id="sgpa3" name="sgpa3"  step="0.01" placeholder="Enter your sgpa3" /><br>
+	<label for="sgpa4">sgpa4</label>
+        <input type="number" id="sgpa4" name="sgpa4"step="0.01" placeholder="Enter your sgpa4" /></br>
+	<label for="sgpa5">sgpa5</label>
+        <input type="number" id="sgpa5" name="sgpa5" step="0.01" placeholder="Enter your sgpa5" /><br>
+	<label for="sgpa6">sgpa6</label>
+        <input type="number" id="sgpa6" name="sgpa6" step="0.01" placeholder="Enter your sgpa6" /><br>
+	<label for="sgpa7">sgpa7</label>
+        <input type="number" id="sgpa7"  name="sgpa7" step="0.01" placeholder="Enter your sgpa7" /><br>
+	<label for="sgpa8">sgpa8</label>
+        <input type="number" id="sgpa8"  name="sgpa8" step="0.01" placeholder="Enter your sgpa8" /><br>
+	<label for="CGPA">CGPA</label>
+        <input type="number" id="cgpa"  name="cgpa" step="0.01" placeholder="Enter your cgpa" />
+     <p>   
+      <label for="Hobbies">Hobbies</label>
+    </p>
+	<textarea name="Hobbies" id="Hobbies" placeholder="Enter your hobbies"></textarea>
+     <p>
+      <label for="Hosteller">Hosteller</label>
+      <input type="boolean" name="Hosteller" id="Hosteller" placeholder="Are you hosteller?"/>
+    </p>
+     <p>
+      <label for="References">References</label>
+    </p>
+	<textarea name="References" id="References" placeholder="References"></textarea>
+    <p>&nbsp;</p>
+    <p>
+      <input type="submit" name="Submit" id="Submit" value="Submit">
+	<input type="reset" name="Reset" id="Reset" value="Reset">
+    </p>
+  </form>
+</fieldset>
+</body>
+</html>
